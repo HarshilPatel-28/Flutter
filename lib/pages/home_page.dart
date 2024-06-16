@@ -10,12 +10,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Catalog App",
-          style: TextStyle(color: Colors.white),
-        ),
-        backgroundColor: Colors.deepPurple,
-        iconTheme: IconThemeData(color: Colors.white),
+        title: const Text("Catalog App"),
+        // backgroundColor: Colors.deepPurple,
       ),
       body: Center(
         child: Container(
